@@ -1,0 +1,50 @@
+\documentclass{beamer}
+\usepackage[croatian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{bibentry}
+
+\usetheme{PaloAlto}
+\usecolortheme{fly}
+
+\title{\textbf{Git Hooks}}
+\subtitle{\textit{autori:} Matej Anić\newline
+Karlo Veršić\newline
+Ani Perušić
+}
+
+
+\begin{document}
+	\frame {
+		\titlepage
+	}
+	\frame {
+		\frametitle{Što su Git hooks?}
+
+		\textbf{Git Hooks} su skripte koje Git izvršava prije ili nakon događaja kao što su: \textit{commit, push} i \textit{receive}.
+		\newline
+		\newline
+		Skripte se personaliziraju i prilagođavaju prema potrebi korisnika (npr. pri optimizaciji razvojnog toka, mijenjanju okruženja, te poticanju korištenja 		  			\textit{commit} funkcije).
+		
+	}
+	\frame{
+		\frametitle{\textit{Primjeri Git Hooks skripti:}}
+		
+		\underline{pre-commit}: (provjera poruke uz commit)\newline
+		\underline{post-commit}: (slanje obavijesti o novome commitu)
+		
+	}
+	\frame{
+		\frametitle{Kako funkcioniraju?}
+		Svaki Git repozitorij ima \textit{.git/hooks} direktorij koji sadrži standardne Git Hooks skripte.\newline
+		Slobodno se mogu izmjenjivati ili ažurirati, a Git će ih automatski izvršiti kada budu potrebne.
+	}
+	\frame{
+		
+	}
+	\frame{
+		\frametitle{Literatura}
+	}
+\end{document}
