@@ -1,8 +1,8 @@
 # Git-hooks
 seminarski rad
 
-Matej Anić
+Matej Anić 33.33%
 
-Ani Perušić
+Ani Perušić 33.33%
 
-Karlo Veršić
+Karlo Veršić 33.33%
