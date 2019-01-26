@@ -56,11 +56,30 @@ Ani Perušić
             \item Optimizacija workflowa
             \item Uređivnje okoliša za izvršavanje koda
         \end{itemize}
-        \newline \newline
-        Može se koristiti i za skoro bilo koju drugu svrhu \newline 
-        zbog lakoće uređivanja skripti.
+        Može se koristiti i za skoro bilo koju drugu svrhu\newline 
+        zbog lakoće uređivanja skripti pa je teško izdvojiti najčešće svrhe.
         
         
+	}
+	\frame{
+		\frametitle{Jezici za skripte}
+		Ugrađene skripte su skoro uvijek PERL ili shell skripte,\newline
+		ali se mogu koristiti i drugi programski jezici.\newline
+		U prvoj liniji trebamo samo definirati kako će se skripta izvoditi.\newline
+		Npr. na kraju reda ddati "python" ako kodiramo u Phytonu.
+		}
+	\frame{
+		\frametitle{Problemi}
+		Sadržaj .direktorija mape se ne dijeli kad se dijele druge datoteke u repozitoriju.\newline
+		Trebaju se dijeliti kopiranjem.\newline
+		Mogu se i dijeliti stvaranjem direktorija predloška(Template Directory).\newline
+		Sve datoteke iz tog direktorija se stavljaju u .git direktorij\newline
+		prilikom korištenja "git init" i "git clone" naredbi.
+	}
+	frame{
+		\frametitle{Lokalni hooks}
+		Odnose se samo na repozitorij u kojem djeluju.\newline
+		Npr. pre-commit, post-commit
 	}
 	\frame{
 		\frametitle{Literatura}
