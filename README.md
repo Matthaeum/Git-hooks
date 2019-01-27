@@ -1,5 +1,5 @@
 # Git-hooks
-Seminarski rad
+# Seminarski rad
 ______________
 Matej Anić 33.33%
 
