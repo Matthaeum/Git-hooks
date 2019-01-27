@@ -20,6 +20,14 @@ Ani Perušić
 \begin{document}
 	\frame {
 		\titlepage
+
+		
+	}
+	\frame{
+		\begin{figure}
+			\includegraphics[scale=0.25]{pic3.png}
+		\end{figure}
+
 	}
 	\frame {
 		\frametitle{Što su Git hooks?}
@@ -32,12 +40,21 @@ Ani Perušić
 	}
 	\frame{
 		\frametitle{\textit{Primjeri Git Hooks skripti:}}
+
 		
 		\underline{pre-commit}: (provjera poruke uz commit)\newline
 		\underline{post-commit}: (slanje obavijesti o novome commitu)
 		
 	}
 	\frame{
+
+		\begin{figure}
+			\caption{\textit{primjer: pre-commit}}
+			\includegraphics[scale=0.3]{pic2.jpg}
+		\end{figure}
+	}
+	\frame{
+
 		\frametitle{Kako funkcioniraju?}
 		Svaki Git repozitorij ima \textit{.git/hooks} direktorij koji sadrži standardne Git Hooks skripte.\newline
 		Slobodno se mogu izmjenjivati ili ažurirati, a Git će ih automatski izvršiti kada budu potrebne.
@@ -72,7 +89,9 @@ Ani Perušić
 		\frametitle{Problemi}
 		Sadržaj .git direktorija se ne dijeli kad se dijele druge datoteke u repozitoriju.\newline
 		Trebaju se dijeliti kopiranjem.\newline
-		Mogu se i dijeliti stvaranjem direktorija predloška(Template Directory).\newline
+
+		Mogu se i dijeliti stvaranjem direktorija predloška (Template Directory).\newline
+
 		Sve datoteke iz tog direktorija se stavljaju u .git direktorij\newline
 		prilikom korištenja "git init" i "git clone" naredbi.
 	}
@@ -91,5 +110,9 @@ Ani Perušić
 		\frametitle{Literatura}
 		\url{https://githooks.com/}
 		\url{https://www.atlassian.com/git/tutorials/git-hooks}
+		
+		\bibliographystyle{plain}
+		\bibliography{bibfile}
+
 	}
 \end{document}
