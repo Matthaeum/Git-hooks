@@ -2,4 +2,7 @@
 *.out
 *.snm
 *.toc
+*.bbl
+*.pdf
+
 
